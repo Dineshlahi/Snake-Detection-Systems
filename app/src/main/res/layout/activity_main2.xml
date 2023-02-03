@@ -6,10 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
-    <ListView
+    <com.google.android.material.navigation.NavigationView
         android:layout_width="409dp"
         android:layout_height="729dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

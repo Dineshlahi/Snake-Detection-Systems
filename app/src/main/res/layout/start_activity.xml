@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgound_image"
-    tools:context=".MainActivity">
+    tools:context=".startActivity">
 
     <Button
         android:id="@+id/btnStart"

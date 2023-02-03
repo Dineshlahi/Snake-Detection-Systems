@@ -9,7 +9,7 @@ import android.widget.Button;
 
 
 
-public class MainActivity extends AppCompatActivity {
+public class startActivity extends AppCompatActivity {
     Button btnStart;
 
     @Override
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(startActivity.this, MainActivity2.class);
                 startActivity(intent);
                 finish();
             }
