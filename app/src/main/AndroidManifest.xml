@@ -12,13 +12,13 @@
         android:theme="@style/Theme.SnakeDetectionSystem"
         tools:targetApi="31">
         <activity
-            android:name=".DetailActiivity"
-            android:exported="false" />
-        <activity
             android:name=".DoctorListActivity"
             android:exported="false"
             android:label="@string/title_activity_doctor_list"
             android:theme="@style/Theme.SnakeDetectionSystem.NoActionBar" />
+        <activity
+            android:name=".DetailActiivity"
+            android:exported="false" />
         <activity
             android:name=".CameraActivity"
             android:exported="false" />
